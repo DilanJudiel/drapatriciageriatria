@@ -2,40 +2,38 @@ document.querySelector("#submit").addEventListener("click", e => {
   e.preventDefault();
 
   //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
-  const telefono = "525580303103";
+  const telefono = "522223592373";
 
-  const cliente = document.querySelector("#cliente").value;
+  const nombre = document.querySelector("#cliente").value;
   const fecha = document.querySelector("#fecha").value;
   const hora = document.querySelector("#hora").value;
-  const empleado = document.querySelector("#empleado").value;
-  const servicio = document.querySelector("#servicio").value;
+  const consulta = document.querySelector("#consulta").value;
+  // const servicio = document.querySelector("#servicio").value;
   const resp = document.querySelector("#respuesta");
 
   resp.classList.remove("fail");
   resp.classList.remove("send");
 
   const url = `https://api.whatsapp.com/send?phone=${telefono}&text=
-		*_MI NEGOCIO_*%0A
-		*Reservas*%0A%0A
-		*¿Cuál es tu nombre?*%0A
-		${cliente}%0A
-		*Indica la fecha de tu reserva*%0A
+		*_Dra. Patricia Geriatra_*%0A
+		*Cita*%0A%0A
+		*Nombre:*%0A
+		${nombre}%0A
+		*Indica la fecha de tu cita:*%0A
 		${fecha}%0A
-		*Indica la hora de tu reserva*%0A
+		*Indica la hora de tu cita:*%0A
 		${hora}%0A
-		*Empleado de preferencia*%0A
-		${empleado}%0A
-		*¿Cuál es el servicio que se desea realizar?*%0A
-		${servicio}`;
+		*Motivo de consulta:*%0A
+		${consulta}`;
 
-  if (cliente === "" || fecha === "" || hora === "") {
+  if (nombre === "" || fecha === "" || hora === "") {
     resp.classList.add("fail");
-    resp.innerHTML = `Faltan algunos datos, ${cliente}`;
+    resp.innerHTML = `Faltan algunos datos, ${nombre}`;
     return false;
   }
   resp.classList.remove("fail");
   resp.classList.add("send");
-  resp.innerHTML = `Se ha enviado tu reserva, ${cliente}`;
+  resp.innerHTML = `Se ha enviado tu cita, ${nombre}`;
 
   window.open(url);
 });
