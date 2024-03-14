@@ -1282,7 +1282,7 @@ button:focus{
 	font-size: 40px;
 	border: 2px dotted #A44289;
 	margin-right: 10px;
-	color: #00548B;
+	color: #A44289;
 	border-radius: 50%;
 }
 
@@ -1307,7 +1307,7 @@ button:focus{
 	color: #00548B;
 }
 
-.contact-block{}
+/* .contact-block{} */
 
 .contact-block .form-group .form-control{
 	background: #00548B;
@@ -1376,7 +1376,7 @@ select.form-control:not([size]):not([multiple]){
 }
 
 .footer-box .footer-company-name a{
-	color: #00548B;
+	color: #A44289;
 }
 .footer-box .footer-company-name a:hover{
 	color: #000000;
@@ -1567,14 +1567,14 @@ select.form-control:not([size]):not([multiple]){
 :root {
 	--burbuja-ancho: 64px;
 	--burbuja-icono-ancho: 32px;
-	--burbuja-whatsapp: rgb(31, 61, 120);
+	--burbuja-whatsapp: #A44289;
 	/* --burbuja-whastapp: #25D366; */
 	--burbuja-color: #fff;
 	--burbuja-sombra: rgba(0, 0, 0, 0.1);
 	--burbuja-inactivo: #ff0000;
 	--chat-ancho: 360px;
 	--chat-sombra: rgba(0, 0, 0, 0.1);
-	--chat-cabecera: rgb(31, 61, 120);
+	--chat-cabecera: #A44289;
 	/* --chat-cabecera: #095E54; */
 	--chat-cabecera-texto: #fff;
 	--chat-cabecera-activo: #4AD504;
@@ -1586,7 +1586,7 @@ select.form-control:not([size]):not([multiple]){
 	--chat-cuerpo-dialogo: #fff;
 	--chat-cuerpo-dialogo-nombre: rgba(0, 0, 0, 0.4);
 	--chat-pie: #fff;
-	--chat-boton: rgb(31, 61, 120);
+	--chat-boton: #A44289;
 	/* --chat-boton: #4fce5d; */
 	--chat-boton-texto: #fff;
   }
