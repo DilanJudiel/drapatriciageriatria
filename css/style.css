@@ -1310,7 +1310,7 @@ button:focus{
 /* .contact-block{} */
 
 .contact-block .form-group .form-control{
-	background: #00548B;
+	background: #A44289;
 	height: 45px;
 	font-size: 16px;
 	border: 0;
@@ -1331,7 +1331,7 @@ button:focus{
 }
 
 .submit-button .btn-common{
-	background-color: #00548B;
+	background-color: #A44289;
 	height: 45px;
 	line-height: 45px;
 	font-size: 16px;
@@ -1349,7 +1349,7 @@ button:focus{
 	transition: all 0.3s;
 }
 .submit-button .btn-common:hover{
-	background-color: #528780;
+	background-color: #e99dd3;
 }
 
 .custom-select{
@@ -1365,7 +1365,7 @@ select.form-control:not([size]):not([multiple]){
 }
 
 .footer-box{
-	background: #292f35;
+	background: gray;
 	padding: 20px 0;
 }
 
