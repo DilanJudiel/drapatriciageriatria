@@ -147,7 +147,7 @@ button:focus{
 
 .form-control::-moz-placeholder {
     color: #A44289;
-    opacity: 1;
+    opacity: 4;
 	/*--*/
 }
 
