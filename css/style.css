@@ -179,7 +179,7 @@ button:focus{
   height: 229px;
 }
 
-
+ 
 
 
 
@@ -1502,7 +1502,7 @@ select.form-control:not([size]):not([multiple]){
 	padding: 10px;
 	background: transparent;
 	/* puedo colocar otro color pero con transparencia asi: background: rgba(0,0,0,0.1) porque sino no se ven las label, aunque ya no es necesario porque ya no estan sobre los input y ademas le quite el z-index*/
-	border: 1px solid rgba(0, 0, 0, 0.3);
+	border: 1px solid #A44289;
 	margin-bottom: 15px;
 	border-radius: 10px;
   }
@@ -1524,7 +1524,7 @@ select.form-control:not([size]):not([multiple]){
 	margin: 2px;
   }
   .formulario__submit {
-	background: rgba(0, 0, 0, 0.7);
+	background: #A44289;
 	color: white;
 	padding: 10px 20px;
 	cursor: pointer;
