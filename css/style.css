@@ -590,6 +590,38 @@ button:focus{
 	color: #00548B;
 	text-decoration: underline;
 }
+
+.title-box1{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.title-box1 h2{
+	font-size: 42px;
+	font-family: 'Catamaran', sans-serif;
+	color: #222222;
+	font-weight: 500;
+	position: relative;
+	padding-bottom: 35px;
+	margin-bottom: 15px;
+}
+
+.title-box1 h2::after{
+	content: "";
+	position: absolute;
+	background: url()no-repeat center;
+	width: 120px;
+	height: 40px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.title-box1 h2 span{
+	color: #00548B;
+	text-decoration: underline;
+}
+
 .about-main-info h2{
 	font-size: 40px;
 	font-family: 'Catamaran', sans-serif;
