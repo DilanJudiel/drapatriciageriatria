@@ -1828,6 +1828,19 @@ select.form-control:not([size]):not([multiple]){
 	color: var(--burbuja-whastapp);
   }
 
+  .flags{
+	width: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  .flags_item{
+	width: 30px;
+  }
+.flads_img{
+	cursor: pointer;
+	display: block;
+}
 
 
 
