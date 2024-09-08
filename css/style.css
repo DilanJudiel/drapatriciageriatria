@@ -1837,7 +1837,7 @@ select.form-control:not([size]):not([multiple]){
   .flags_item{
 	width: 30px;
   }
-.flads_img{
+.flags_img{
 	cursor: pointer;
 	display: block;
 }
