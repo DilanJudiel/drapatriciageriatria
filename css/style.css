@@ -1840,6 +1840,7 @@ select.form-control:not([size]):not([multiple]){
 .flags_img{
 	cursor: pointer;
 	display: block;
+	
 }
 
 
