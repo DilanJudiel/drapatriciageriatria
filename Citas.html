@@ -7,29 +7,39 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Reservas MI NEGOCIO</title>
+    <title>Dra. Patricia Geriatra</title>
+
+    <!-- Site Metas -->
+    <title>Dra. Patricia Geriatra &amp; Medico Playa</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <form action="" class="formulario">
-      <img src="logo.jpg" class="imgLogo" />
+      <img src="images/Logo.png" class="imgLogo" />
 
-      <h1 class="formulario__titulo">MI NEGOCIO</h1>
-      <h3 class="formulario__subtitulo">Reservas</h3>
+      <h1 class="formulario__titulo">Dra. Patricia Geriatra</h1>
+      <h3 class="formulario__subtitulo">Agenda tu cita</h3>
       <p class="formulario__parrafo">
-        Llena este pequeño formulario para agendar tu cita en MI NEGOCIO.
+        Llena este pequeño formulario para agendar tu cita
       </p>
 
-      <label for="cliente" class="formulario__label">¿Cuál es tu nombre?</label>
+      <label for="nombre" class="formulario__label">Nombre:</label>
       <input
-        id="cliente"
+        id="nombre"
         type="text"
         class="formulario__input"
         placeholder="Indica cuál es tu nombre completo"
       />
 
       <label for="fecha" class="formulario__label"
-        >Indica la fecha de tu reserva</label
+        >Indica la fecha de tu cita:</label
       >
       <input
         id="fecha"
@@ -39,19 +49,21 @@
       />
 
       <label for="hora" class="formulario__label"
-        >Indica la hora de tu reserva</label
+        >Indica la hora de tu cita:</label
       >
       <input id="hora" type="time" class="formulario__input" />
 
-      <label for="empleado" class="formulario__label"
-        >EMPLEADO de preferencia</label
+      <label for="consulta" class="formulario__label"
+        >Motivo de consulta:</label
       >
-      <select id="empleado" name="listaempleados" class="formulario__input">
-        <option>EMPLEADO 1</option>
-        <option>EMPLEADO 2</option>
-      </select>
+      <input
+        id="consulta"
+        type="text"
+        class="formulario__input"
+        placeholder="Indica cuál es el tipo de consulta"
+      />
 
-      <label for="servicio" class="formulario__label"
+      <!-- <label for="servicio" class="formulario__label"
         >¿Cuál es el servicio que se desea realizar?</label
       >
       <select id="servicio" name="listaservicios" class="formulario__input">
@@ -60,7 +72,7 @@
         <option>SERVICIO 3 - $VALOR</option>
         <option>SERVICIO 4 - $VALOR</option>
         <option>SERVICIO 5 - $VALOR</option>
-      </select>
+      </select> -->
 
       <div id="respuesta"></div>
 
